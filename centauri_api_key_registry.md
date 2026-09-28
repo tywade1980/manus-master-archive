@@ -8,7 +8,7 @@ This document serves as a centralized reference for all API keys and credentials
 
 | Service | Key Name | Current Value (Redacted) | Status | Usage |
 | :--- | :--- | :--- | :--- | :--- |
-| **RunPod** | `RUNPOD_API_KEY` | `rpa_8IQC...Pz9ppgg` | **ACTIVE** | Pod management, Caroline AI hosting |
+| **RunPod** | `RUNPOD_API_KEY` | `REMOVED — rotated` | **ACTIVE** | Pod management, Caroline AI hosting |
 | **ElevenLabs** | `ELEVENLABS_API_KEY` | `[Stored in ENV]` | **ACTIVE** | Caroline AI Voice (TTS) |
 | **OpenAI** | `OPENAI_API_KEY` | `[Stored in ENV]` | **ACTIVE** | LLM access (GPT-4o, etc.) |
 | **OpenRouter** | `OPENROUTER_API_KEY` | `[Stored in ENV]` | **ACTIVE** | Unified LLM access |
