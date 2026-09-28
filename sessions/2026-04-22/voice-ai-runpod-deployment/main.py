@@ -17,11 +17,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 # ─── Configuration ───────────────────────────────────────────────────────────
+ELEVENLABS_API_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 
-ELEVENLABS_API_KEY = os.environ.get(
-    "ELEVENLABS_API_KEY",
-    "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"
-)
 ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "wvVfSeWpAEhEqciDp1gK")
 OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "dolphin-mistral")
